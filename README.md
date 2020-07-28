@@ -1,5 +1,7 @@
 # Dell Optiplex 790 - 3rd gen Intel
 
+A compilation of useful information for Optiplex 790 conversions or maitenance.
+
 ## Power/Reset header pinout
 
 ![Header Pinout Schematic](header.png)
@@ -25,7 +27,20 @@ The PSU comes with 4-pin ATX, Motherboard and 3 SATA connections, and may includ
 # Front USB
 
 ![IO header](https://linustechtips.com/main/uploads/monthly_2019_01/2074137145_C-Front-IO-socket-pinout.jpg.32294c452e4a26b44d4f536c9aa54562.jpg)
+
 Image by Linus Tech Tips forum user Extra8.
 
 Front USB comes in this form, and will not fit properly on a parallel port header, as it should. Connect wiring according to image and your motherboard specifications in modern motherboards.
+
+# Fan
+
+![Fan](fan.png)
+
+Image by Speedstep on Dell support forums/Dell
+
+Front stock fan does not adhere to standards for regular fans. DO NOT plug it in without rewiring it as it might fry the fan or the controller in some cases.
+
+# Form Factor
+
+This case fits up to Micro-ATX easily, no problems at all. Avoid using ATX motherboards using this chassis, as it will require extensive modifications that will ruin parts of the chassis and will not provide a pleasant experience.
 
