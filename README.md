@@ -8,7 +8,7 @@ A compilation of useful information for Optiplex 790 conversions or maitenance.
 
 Pins 1 and 2 are shorted together whenever the power button is pressed.
 
-2 and 4 are always connected, albeit with a high resistance.
+2 and 4 are always connected, albeit with a high resistance. These must be the PWR LED.
 
 3 and 5 are always unconnected and I could not determine a purpose for them without a dedicated reset button (which the Optiplex 790 stock chassis does not have).
 
